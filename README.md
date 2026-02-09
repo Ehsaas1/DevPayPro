@@ -1,110 +1,37 @@
-DevPayPro – Developer Salary Predictor & Compensation Analysis
+# DevPayPro
 
-DevPayPro is a data-driven project that analyzes global developer compensation trends and predicts salaries using machine learning.
-The project is built on the 2023 Stack Overflow Developer Survey and focuses on identifying the key factors that influence developer pay across regions, experience levels, and work styles.
+Welcome to **DevPayPro**, a web application designed to predict developer salaries using various machine learning models. This app allows users to input parameters and get salary predictions based on the latest data and models.
 
-📌 Project Objectives
+![DevPayPro Banner](https://github.com/aumjadhav8/DevPayPro/blob/main/menulogo.png) <!-- Update with an actual banner image URL -->
 
-Analyze long-term developer salary trends
+## Features
 
-Identify major salary drivers such as experience, education, location, and remote work
+- **Predict Developer Salaries:** Utilize models like Linear Regression, Decision Tree, and Random Forest.
+- **Interactive UI:** Built with Streamlit for an engaging user experience.
+- **Easy Setup:** Simple installation and setup instructions.
 
-Build a machine learning model to predict developer salaries
+## Demo
 
-Provide data-backed insights for compensation analysis
+![DevPayPro Demo](https://github.com/aumjadhav8/DevPayPro/blob/main/Screenshot%20from%202024-09-06%2023-19-38.png) <!-- Update with an actual demo GIF URL -->
 
-📊 Dataset
+## Installation
+To get started with DevPayPro, follow these instructions:
 
-Source: Stack Overflow Developer Survey 2023
-
-Records: 70,000+ developer responses
-
-Key Features Used:
-
-Years of coding experience
-
-Education level
-
-Country / region
-
-Employment type
-
-Remote work status
-
-Technology stack
-
-🧹 Data Processing & Feature Engineering
-
-Removed missing and inconsistent records
-
-Handled outliers in salary distributions
-
-Encoded categorical variables
-
-Scaled numerical features
-
-Selected high-impact features based on correlation and variance analysis
-
-🤖 Machine Learning Model
-
-Algorithm: Random Forest Regressor
-
-Baseline Comparison: Linear Regression
-
-Performance Improvements:
-
-~17% reduction in RMSE compared to baseline models
-
-Achieved a realistic R² score of ~0.53
-
-📈 Key Insights
-
-Experience and geography are the strongest predictors of salary
-
-Remote work has a noticeable impact on compensation in certain regions
-
-Salary growth patterns differ significantly across countries and job roles
-
-🛠️ Tech Stack
-
-Programming Language: Python
-
-Libraries & Tools:
-
-Pandas, NumPy
-
-Scikit-learn
-
-Matplotlib / Seaborn
-
-Jupyter Notebook
-
-🚀 How to Run the Project
-
-Clone the repository
-
-git clone https://github.com/Ehsaas1/DevPayPro.git
+1. **Clone the Repository:**
+git clone https://github.com/aumjadhav8/DevPayPro.git
 
 
-Install required dependencies
+2. **Navigate to the Project Directory:**
+cd DevPayPro
 
+3. **Create a Virtual Environment (Optional but Recommended):**
+python -m venv env
+source env/bin/activate  # On Windows use `env\Scripts\activate
+
+
+4. **Install Dependencies:**
 pip install -r requirements.txt
 
 
-Run the notebook to explore analysis and predictions
-
-📌 Future Improvements
-
-Deploy the model as a web application
-
-Add Power BI / Tableau dashboard for interactive insights
-
-Improve prediction accuracy using hyperparameter tuning
-
-Support salary comparison across multiple years
-
-👤 Author
-
-Ehsaas Choudhary
-B.Tech CSE (AIML)
-Aspiring Data Analyst / Data Scientist
+5. **Run the Application:**
+streamlit run app.py
